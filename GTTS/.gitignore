@@ -1,0 +1,6 @@
+
+# If you are using PyCharm # 
+# User-specific stuff
+.idea/
+
+.venv/

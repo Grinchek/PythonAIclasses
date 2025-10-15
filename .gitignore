@@ -1,0 +1,114 @@
+# =========================================
+# 🐍 Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================================
+# 🧩 Virtual Environments
+# =========================================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================================
+# 🧠 Jupyter / Notebooks (якщо колись буде)
+# =========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================================
+# 💻 IDE / Editors
+# =========================================
+# VS Code
+.vscode/
+# PyCharm / JetBrains
+.idea/
+# Other editors
+*.swp
+*.swo
+
+# =========================================
+# 📊 Data / Outputs / Forecasts
+# =========================================
+# Generated data files and visualizations
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# Specific to your USD/UAH project
+usd_uah_forecast_*.csv
+usd_uah_forecast_*.png
+usd_uah.csv
+
+# =========================================
+# 🪣 Logs / Temp / Caches
+# =========================================
+*.log
+*.tmp
+*.bak
+*.old
+*.cache/
+.cache/
+__cache__/
+profile_default/
+ipython_config.py
+
+# =========================================
+# ⚙️ OS / System files
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# 🔐 Secrets / Environment variables
+# =========================================
+.env
+.env.local
+.env.*
+*.env
+
+# =========================================
+# 🧾 Documentation / Configs to keep
+# =========================================
+# These files SHOULD stay in the repo
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore
+
+# =========================================
+# 🧰 GitHub-specific
+# =========================================
+# GitHub Actions / workflows cache
+.github/workflows/*.tmp
+.github/workflows/__pycache__/
+.github/ISSUE_TEMPLATE/
+.github/PULL_REQUEST_TEMPLATE/
+
+# =========================================
+# 🚀 Other optional tools
+# =========================================
+# pytest / coverage / mypy
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover

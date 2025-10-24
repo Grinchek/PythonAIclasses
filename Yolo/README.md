@@ -13,4 +13,6 @@ python main.py
 
 pip install ultralytics opencv-python
 
+pip install ultralytics roboflow opencv-python python-dotenv
+
 `````
